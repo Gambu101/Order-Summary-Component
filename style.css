@@ -1,0 +1,107 @@
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+.order_summary_box{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 400px;
+    margin-top: 5rem;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.order_image{
+    height: 200px;
+    border: 10px;
+}
+#illustration_image{
+    height: 200px;
+    width: 400px;
+    border-top: 10px;
+}
+.order_summary_write-up{
+    background-color: white;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.heading{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+.sub_heading{
+    font-size: 16px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+.plan{
+    display: block;
+    border-radius: 10px;
+    height: 90px;
+    font-weight: 700;
+    background-color: hsl(225, 100%, 98%);
+}
+#music_icon{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.chosen_plan{
+    margin-left: 70px;
+    margin-top: -50px;
+    color: hsl(223, 47%, 23%);
+}
+#price{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+.change_plan{
+    float: right;
+    margin-right: 20px;
+    margin-top: -30px;
+}
+.change_plan:hover{
+    opacity: 0.5;
+}
+#payment_button{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    width: 24em;
+    height: 3em;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 900;
+    box-shadow: 2px 2px 5px black;
+    padding: 5px;
+
+}
+#payment_button:hover{
+    opacity: 0.5;
+}
+#cancel_order_button{
+    margin-bottom: 10px;
+    width: 24em;
+    height: 2.5em;
+    border-radius: 5px;
+    border-width: 0px;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+}
+#cancel_order_button:hover{
+    color: hsl(223, 47%, 23%);
+}
+@media screen and (max-width:600px) {
+    body{
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
+}
